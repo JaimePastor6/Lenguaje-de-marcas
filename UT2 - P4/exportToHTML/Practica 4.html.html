@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>Practica 4.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e8bf6a;}
+.s1 { color: #bababa;}
+.s2 { color: #a9b7c6;}
+.s3 { color: #a5c261;}
+.s4 { color: #a9b7c6;}
+.s5 { color: #cc7832;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Practica 4.html</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;!DOCTYPE </span><span class="s1">html</span><span class="s0">&gt;</span>
+<span class="s0">&lt;html </span><span class="s1">lang</span><span class="s3">=&quot;es&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;head&gt;</span>
+    <span class="s0">&lt;meta </span><span class="s1">charset</span><span class="s3">=&quot;UTF-8&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;title&gt;</span><span class="s4">Formulario</span><span class="s0">&lt;/title&gt;</span>
+    <span class="s0">&lt;h1 </span><span class="s1">style</span><span class="s3">=&quot;</span><span class="s1">text-align</span><span class="s4">: </span><span class="s3">center</span><span class="s5">; </span><span class="s1">color</span><span class="s4">: </span><span class="s3">saddlebrown&quot; </span><span class="s0">&gt;</span><span class="s4">Formularios HTML</span><span class="s0">&lt;/h1&gt;</span>
+<span class="s0">&lt;/head&gt;</span>
+<span class="s0">&lt;body&gt;</span>
+<span class="s0">&lt;form </span><span class="s1">action</span><span class="s3">=&quot;/action_page.php&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;fieldset&gt;</span>
+        <span class="s0">&lt;legend&gt;</span><span class="s4">Formulario:</span><span class="s0">&lt;/legend&gt;</span>
+    <span class="s0">&lt;label </span><span class="s1">for</span><span class="s3">=&quot;dni&quot;</span><span class="s0">&gt;</span><span class="s4">Escriba su dni:</span><span class="s0">&lt;/label&gt;&lt;br&gt;</span>
+    <span class="s0">&lt;input </span><span class="s1">type</span><span class="s3">=&quot;text&quot; </span><span class="s1">id</span><span class="s3">=&quot;dni&quot; </span><span class="s1">name</span><span class="s3">=&quot;dni&quot;</span><span class="s0">&gt;&lt;br&gt;</span>
+    <span class="s0">&lt;label </span><span class="s1">for</span><span class="s3">=&quot;Apellido&quot;</span><span class="s0">&gt; </span><span class="s4">Escriba su apellido:</span><span class="s0">&lt;/label&gt;&lt;br&gt;</span>
+    <span class="s0">&lt;input </span><span class="s1">type</span><span class="s3">=&quot;text&quot; </span><span class="s1">id</span><span class="s3">=&quot;Apellido&quot; </span><span class="s1">name</span><span class="s3">=&quot;Apellido&quot; </span><span class="s1">maxlength</span><span class="s3">=&quot;30&quot;</span><span class="s0">&lt;br&gt;&lt;br&gt;</span>
+    <span class="s0">&lt;label </span><span class="s1">for</span><span class="s3">=&quot;Nombre&quot;</span><span class="s0">&gt; </span><span class="s4">Escriba su Nombre:</span><span class="s0">&lt;/label&gt;&lt;br&gt;</span>
+    <span class="s0">&lt;input </span><span class="s1">type</span><span class="s3">=&quot;text&quot; </span><span class="s1">id</span><span class="s3">=&quot;Nombre&quot; </span><span class="s1">name</span><span class="s3">=&quot;Nombre&quot; </span><span class="s1">maxlength</span><span class="s3">=&quot;15&quot;</span><span class="s0">&gt;&lt;br&gt;&lt;br&gt;</span>
+    <span class="s0">&lt;form </span><span class="s1">action</span><span class="s3">=&quot;/action_page.php&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;label </span><span class="s1">for</span><span class="s3">=&quot;Fecha&quot;</span><span class="s0">&gt;</span><span class="s4">Fecha de nacimiento:</span><span class="s0">&lt;/label&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;input </span><span class="s1">type</span><span class="s3">=&quot;date&quot; </span><span class="s1">id</span><span class="s3">=&quot;Fecha&quot; </span><span class="s1">name</span><span class="s3">=&quot;Fecha&quot;</span><span class="s0">&gt;&lt;br&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;label </span><span class="s1">for</span><span class="s3">=&quot;Nacionalidad&quot;</span><span class="s0">&gt; </span><span class="s4">Nacionalidad:</span><span class="s0">&lt;/label&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;select </span><span class="s1">name</span><span class="s3">=&quot;Nacionalidad&quot; </span><span class="s1">id</span><span class="s3">=&quot;Nacionalidad&quot;</span><span class="s0">&gt;</span>
+            <span class="s0">&lt;option </span><span class="s1">value</span><span class="s3">=&quot;Español&quot;</span><span class="s0">&gt;</span><span class="s4">Español</span><span class="s0">&lt;/option&gt;</span>
+            <span class="s0">&lt;option </span><span class="s1">value</span><span class="s3">=&quot;Francés&quot;</span><span class="s0">&gt;</span><span class="s4">Francés</span><span class="s0">&lt;/option&gt;</span>
+            <span class="s0">&lt;option </span><span class="s1">value</span><span class="s3">=&quot;Inglés&quot;</span><span class="s0">&gt;</span><span class="s4">Inglés</span><span class="s0">&lt;/option&gt;</span>
+            <span class="s0">&lt;option </span><span class="s1">value</span><span class="s3">=&quot;Aleman&quot;</span><span class="s0">&gt;</span><span class="s4">Aleman</span><span class="s0">&lt;/option&gt;</span>
+        <span class="s0">&lt;/select&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;label </span><span class="s1">for</span><span class="s3">=&quot;email&quot;</span><span class="s0">&gt;</span><span class="s4">Correo electrónico:</span><span class="s0">&lt;/label&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;input </span><span class="s1">type</span><span class="s3">=&quot;email&quot; </span><span class="s1">id</span><span class="s3">=&quot;email&quot; </span><span class="s1">name</span><span class="s3">=&quot;email&quot;</span><span class="s0">&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;label </span><span class="s1">for</span><span class="s3">=&quot;sexo&quot;</span><span class="s0">&gt;</span><span class="s4">Sexo:</span><span class="s0">&lt;/label&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;input </span><span class="s1">type</span><span class="s3">=&quot;radio&quot; </span><span class="s1">id</span><span class="s3">=&quot;sexo&quot; </span><span class="s1">name</span><span class="s3">=&quot;Hombre&quot; </span><span class="s1">value</span><span class="s3">=&quot;Hombre&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;label </span><span class="s1">for</span><span class="s3">=&quot;sexo&quot;</span><span class="s0">&gt;</span><span class="s4">Hombre</span><span class="s0">&lt;/label&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;input </span><span class="s1">type</span><span class="s3">=&quot;radio&quot; </span><span class="s1">id</span><span class="s3">=&quot;sexo&quot; </span><span class="s1">name</span><span class="s3">=&quot;Mujer&quot; </span><span class="s1">value</span><span class="s3">=&quot;Mujer&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;label </span><span class="s1">for</span><span class="s3">=&quot;sexo&quot;</span><span class="s0">&gt;</span><span class="s4">Mujer</span><span class="s0">&lt;/label&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;input </span><span class="s1">type</span><span class="s3">=&quot;radio&quot; </span><span class="s1">id</span><span class="s3">=&quot;sexo&quot; </span><span class="s1">name</span><span class="s3">=&quot;Otro&quot; </span><span class="s1">value</span><span class="s3">=&quot;Otro&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;label </span><span class="s1">for</span><span class="s3">=&quot;sexo&quot;</span><span class="s0">&gt;</span><span class="s4">Otro</span><span class="s0">&lt;/label&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;label </span><span class="s1">for</span><span class="s3">=&quot;otrosComentarios&quot;</span><span class="s0">&gt;</span><span class="s4">Otros Comentarios:</span><span class="s0">&lt;/label&gt;</span>
+        <span class="s0">&lt;textarea </span><span class="s1">id</span><span class="s3">=&quot;otrosComentarios&quot; </span><span class="s1">name</span><span class="s3">=&quot;Comentarios&quot; </span><span class="s1">rows</span><span class="s3">=&quot;4&quot; </span><span class="s1">cols</span><span class="s3">=&quot;50&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;input </span><span class="s1">type</span><span class="s3">=&quot;checkbox&quot; </span><span class="s1">id</span><span class="s3">=&quot;confirmarCorreo&quot; </span><span class="s1">name</span><span class="s3">=&quot;confirmarCorreo&quot; </span><span class="s1">value</span><span class="s3">=&quot;Correo&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;label </span><span class="s1">for</span><span class="s3">=&quot;confirmarCorreo&quot;</span><span class="s0">&gt;</span><span class="s4">Confirmar correo de confirmación</span><span class="s0">&lt;/label&gt;&lt;br&gt;&lt;br&gt;</span>
+        <span class="s0">&lt;input </span><span class="s1">type</span><span class="s3">=&quot;submit&quot; </span><span class="s1">value</span><span class="s3">=&quot;Submit&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;input </span><span class="s1">type</span><span class="s3">=&quot;reset&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;/fieldset&gt;</span>
+
+<span class="s0">&lt;/body&gt;</span>
+<span class="s0">&lt;/html&gt;</span></pre>
+</body>
+</html>
